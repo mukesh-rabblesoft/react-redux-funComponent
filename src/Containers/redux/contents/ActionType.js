@@ -1,0 +1,7 @@
+const ActionTypes={
+    SET_PRODUCT: "SET_PRODUCTS",
+    SELECT_PRODUCT:"SELECTED_PRODUCTS",
+    REMOVE_PRODUCT:"REMOVE_PRODUCTS"
+}
+
+export default ActionTypes;
