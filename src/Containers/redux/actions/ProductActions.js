@@ -14,5 +14,12 @@ const selectedProduct = (product)=>{
     }
 }
 
+const removeSelectedProduct = ()=>{
+    return {
+        type:ActionTypes.REMOVE_PRODUCT,
+     
+    }
+}
 
-export  {setProducts,selectedProduct};
+
+export  {setProducts,selectedProduct,removeSelectedProduct};

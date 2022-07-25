@@ -90,7 +90,7 @@ const [ligttxt,setDarktxt] = useState('Dark Mode')
             aria-labelledby="headingTwo"
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div className="accordion-body">
               <strong>This is the second item's accordion body.</strong> It is
               hidden by default, until the collapse plugin adds the appropriate
               classes that we use to style each element. These classes control
